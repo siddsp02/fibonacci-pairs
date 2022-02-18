@@ -9,9 +9,9 @@ def fib_pairs(n: int) -> Pair:
         x, y = pairs[k]
         p = x + y
         if i & 1:
-            x, y, k = x*x + y*y, y * (x+p), k+1
+            x, y = x*x + y*y, y * (x+p)
         else:
-            x, y = y * (x+p), y*y + p*p
+            x, y, k = y * (x+p), y*y + p*p, k+1
         pairs.append((x, y))
     return pairs[n]
 
