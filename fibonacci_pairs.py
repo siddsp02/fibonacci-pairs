@@ -13,7 +13,7 @@ def fib_pairs(n: int) -> list[Pair]:
         else:
             x, y = y * (x+p), y*y + p*p
         pairs.append((x, y))
-    return pairs
+    return pairs[n]
 
 
 def main() -> None:
