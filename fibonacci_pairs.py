@@ -2,7 +2,7 @@
 
 Pair = tuple[int, int]
 
-def fib_pairs(n: int) -> list[Pair]:
+def fib_pairs(n: int) -> Pair:
     pairs = [(0, 1), (1, 1)]
     k = 0
     for i in range(2, n+1):
