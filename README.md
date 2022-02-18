@@ -1,0 +1,2 @@
+# fibonacci-pairs
+This was originally a recursive algorithm I learned in one of my classes (in Java), spanning roughly 20-30 lines. I was curious how it would turn out if converted iteratively, so I did so. While the solution is very concise, it is far slower than the recursive version due to memory usage. Otherwise, this is completely original and my work. I plan on fixing the issues with memory usage too.
